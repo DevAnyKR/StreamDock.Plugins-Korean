@@ -1,0 +1,128 @@
+{
+  "Description": "Stream Deck에서 Windows를 제어하세요. 앱 또는 장치의 볼륨 제어, Bluetooth/WiFi 켜기 또는 끄기, 'Explorer Scratch Pad'를 사용하여 일반 폴더 사이를 빠르게 전환, 'Multi-Clip'을 통해 모든 키를 개별 클립보드로 전환, Ping 서버 및 대기 시간 확인, 변경 전원 계획, Windows 서비스 중지/시작/다시 시작, 가상 데스크탑 지원 등",
+  "Name": "Win Tools",
+  "com.barraider.wintools.displayaction": {
+    "Name": "디스플레이 동작",
+    "Tooltip": "디스플레이 동작"
+  },
+  "com.barraider.wintools.appaudiomixer": {
+    "Name": "앱 오디오 믹서",
+    "Tooltip": "특정 앱의 볼륨을 절대값으로 설정"
+  },
+  "com.barraider.wintools.appplayback": {
+    "Name": "앱 재생 장치",
+    "Tooltip": "특정 앱에 대한 재생 장치를 설정합니다."
+  },
+  "com.barraider.wintools.appmute": {
+    "Name": "앱 음소거 토글",
+    "Tooltip": "특정 앱을 음소거 또는 해제합니다."
+  },
+  "com.barraider.wintools.appvolumeadjust": {
+    "Name": "앱 볼륨 증감",
+    "Tooltip": "특정 앱의 볼륨을 상대값으로 조정"
+  },
+  "com.barraider.wintools.appvolumeset": {
+    "Name": "앱 볼륨 설정",
+    "Tooltip": "앱의 볼륨을 절대값으로 설정(또는 페이드)"
+  },
+  "com.barraider.wintools.audiomute": {
+    "Name": "오디오 장치/마이크 음소거 전환",
+    "Tooltip": "재생/녹음 장치를 음소거 또는 해제합니다."
+  },
+  "com.barraider.wintools.audiovolumeadjust": {
+    "Name": "오디오 장치 볼륨 증감",
+    "Tooltip": "재생/녹음 장치의 볼륨을 상대값으로 조정"
+  },
+  "com.barraider.wintools.audiovolumeset": {
+    "Name": "오디오 장치 볼륨 설정",
+    "Tooltip": "재생/녹음 장치의 볼륨을 절대값으로 설정(또는 페이드)"
+  },
+  "com.barraider.wintools.bluetooth": {
+    "Name": "블루투스/와이파이 토글",
+    "Tooltip": "블루투스/와이파이를 켜거나 끕니다."
+  },
+  "com.barraider.wintools.defaultaudiodevice": {
+    "Name": "기본 오디오 장치",
+    "Tooltip": "기본 재생 또는 녹음 장치를 설정합니다."
+  },
+  "com.barraider.wintools.driveinfo": {
+    "Name": "드라이브 정보",
+    "Tooltip": "디스크 드라이브에 대한 정보를 표시합니다."
+  },
+  "com.barraider.wintools.ip": {
+    "Name": "IP 정보",
+    "Tooltip": "현재 IP를 보여줍니다"
+  },
+  "com.barraider.wintools.keyboardlang": {
+    "Name": "키보드 언어",
+    "Tooltip": "현재 키보드 입력 언어를 표시하고 변경합니다."
+  },
+  "com.barraider.wintools.keyboardleds": {
+    "Name": "키보드 LED 디스플레이",
+    "Tooltip": "NumLock, CapsLock 및 ScrollLock 상태를 표시하고 잠급니다."
+  },
+  "com.barraider.wintools.keyboardkeytoggle": {
+    "Name": "키보드 NumLock/CapsLock/ScrollLock 토글",
+    "Tooltip": "개별 NumLock/CapsLock/ScrollLock 상태를 표시하고 변경합니다."
+  },
+  "com.barraider.wintools.latestfilecopy": {
+    "Name": "최신 파일 복사",
+    "Tooltip": "디렉터리의 최신 복사본을 설정된 위치에 복사합니다."
+  },
+  "com.barraider.wintools.lock": {
+    "Name": "컴퓨터 잠금",
+    "Tooltip": "컴퓨터를 잠급니다."
+  },
+  "com.barraider.wintools.multiclip": {
+    "Name": "멀티클립",
+    "Tooltip": "각 멀티 클립 키는 전용 클립보드입니다."
+  },
+  "com.barraider.wintools.networkcard": {
+    "Name": "네트워크 카드 정보",
+    "Tooltip": "네트워크 카드가 활성화/비활성화되었는지 표시합니다(VPN이 활성화되어 있는지 확인하는 데 유용함)."
+  },
+  "com.barraider.wintools.notification": {
+    "Name": "알림 팝업",
+    "Tooltip": "맞춤 알림 팝업"
+  },
+  "com.barraider.wintools.powerplanswitcher": {
+    "Name": "전원 계획 전환기",
+    "Tooltip": "다양한 Windows 전원 계획 간 전환이 가능합니다."
+  },
+  "com.barraider.wintools.ping": {
+    "Name": "핑",
+    "Tooltip": "서버를 핑하고 Stream Deck에 대기 시간을 표시합니다."
+  },
+  "com.barraider.wintools.primarymonitor": {
+    "Name": "기본 모니터",
+    "Tooltip": "기본 모니터를 설정합니다"
+  },
+  "com.barraider.wintools.service": {
+    "Name": "서비스 시작/중지",
+    "Tooltip": "Windows 서비스 시작/중지"
+  },
+  "com.barraider.wintools.uptime": {
+    "Name": "가동시간 카운터",
+    "Tooltip": "PC의 시스템 가동 시간을 표시합니다."
+  },
+  "com.barraider.wintools.vdcreate": {
+    "Name": "가상 데스크탑 - 생성",
+    "Tooltip": "새로운 가상 데스크탑을 생성합니다."
+  },
+  "com.barraider.wintools.vddelete": {
+    "Name": "가상 데스크탑 - 삭제",
+    "Tooltip": "기존 가상 데스크탑을 삭제합니다."
+  },
+  "com.barraider.wintools.vdshow": {
+    "Name": "가상 데스크탑 - 현재 표시",
+    "Tooltip": "현재 가상 데스크탑의 이름을 표시합니다."
+  },
+  "com.barraider.wintools.vdswitch": {
+    "Name": "가상 데스크탑 전환",
+    "Tooltip": "가상 데스크탑으로 전환"
+  },
+  "com.barraider.wintools.windowsexplorer": {
+    "Name": "Windows 탐색기 스크래치 패드",
+    "Tooltip": "나중에 빠르게 열 수 있도록 현재 폴더를 Windows 탐색기에 저장합니다."
+  }
+}
