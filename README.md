@@ -17,6 +17,13 @@
 
 `C:\Program Files (x86)\StreamDock\plugins` 디렉터리에 번역된 플러그인 폴더를 덮어씁니다.
 
+### 프로그램 재실행
+
+Stream 프로그램을 종료 후 재시작하면 적용됩니다.
+
+![image](https://github.com/DevelopmentAnything/StreamDeckPlugin-Korean/assets/110871727/ea5b116a-a48a-4dba-92b6-bc30b6c0d74e)
+
+
 ## 라이선스
 
 MIT
