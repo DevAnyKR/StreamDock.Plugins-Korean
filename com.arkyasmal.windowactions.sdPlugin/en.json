@@ -1,0 +1,57 @@
+{
+  "Description": "창 ID(예: 제목, 파일 이름, 클래스 이름 등)에 따라 창을 최소화, 최대화, 닫기, 이동 또는 크기 조정합니다. 이러한 작업은 여러 모니터와 가상 데스크톱을 통해 지원됩니다. \n 또한 추가된 화면 공간을 위해 새로운 가상 데스크톱을 탐색하고 생성하세요.", 
+  "Name": "창 동작", 
+  "Category": "창 동작", 
+  "com.arkyasmal.windowactions.minimizewindows": {
+    "Name": "창 최소화"
+  },
+  "com.arkyasmal.windowactions.maximizewindows": {
+    "Name": "창 최대화"
+  },
+  "com.arkyasmal.windowactions.closewindows": {
+    "Name": "창 닫기"
+  },
+  "com.arkyasmal.windowactions.resizewindows": {
+    "Name": "창 크기변경/이동"
+  },
+  "com.arkyasmal.windowactions.movewindowsvirtual": {
+    "Name": "가상 데스크탑으로 창 이동"
+  },
+  "com.arkyasmal.windowactions.movevirtualdesktops": {
+    "Name": "가상 데스크탑으로 이동"
+  },
+  "com.arkyasmal.windowactions.createvirtualdesktops": {
+    "Name": "가상 데스크탑 생성"
+  },
+  "com.arkyasmal.windowactions.movewindowstomonitor": {
+    "Name": "새 모니터/화면으로 창 이동"
+  },
+  "com.arkyasmal.windowactions.movevirtualdesktopright": {
+    "Name": "다음 가상 데스크탑으로 이동"
+  },
+  "com.arkyasmal.windowactions.movevirtualdesktopleft": {
+    "Name": "이전 가상 데스크탑으로 이동"
+  },
+  "Localization": {
+    "Identifer Type": "식별자 유형",
+    "Program Name (.exe file)": "프로그램 이름(.exe 파일)",
+    "Exact Window Title": "정확한 창 제목",
+    "Partial Window Title": "부분 창 제목",
+    "Unique Active Window Id (hwnd)": "고유 활성 창 ID(hwnd)",
+	"Window Class Name" : "창 클래스 이름",
+    "Identifer": "식별자",
+    "Coordinates (in pixels)": "좌표(픽셀 단위)",
+    "Size (in pixels)": "크기(픽셀 단위)",
+    "Width:": "너비:",
+    "Height:": "높이:",
+    "Screen/Monitor": "화면/모니터",
+	"Active Windows": "활성 창",
+	"Open": "열기",
+	"More Info": "더 많은 정보",
+	"Virtual Desktop Number": "가상 데스크탑 번호",
+	"Number of Desktops To Create": "생성할 데스크탑 수",
+	"": "",
+	"": "",
+	"": ""
+  }
+}
