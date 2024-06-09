@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>최신 파일 복사 설정</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/pickers.js"></script>
+    <script src="LatestFileCopy.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <details class="message">
+            <summary>이 작업을 사용하는 방법에 대한 지침을 보려면 <span class="linkspan">여기를 클릭하세요</span></summary>
+            <p>이 작업은 특정 디렉터리의 변경 사항을 모니터링합니다. 파일이 생성/수정될 때마다 해당 파일이 "파일 이름 저장"에 복사됩니다.</p>
+			<p>이것은 매번 "파일 이름 저장"을 덮어쓰게 된다는 것을 명심하세요.</p>
+			<p>예를 들어 이를 사용하여 특정 파일에 생성된 최신 "인스턴트 재생"을 항상 저장할 수 있습니다.</p>
+        </details>
+        <div class="sdpi-item" id="dvWatchDirectory">
+            <div class="sdpi-item-label">감시할 디렉터리</div>
+            <input class="sdpi-item-value sdProperty hasFileButton" disabled value="" id="watchDirectory">
+            <button class="max100 leftMargin0" onclick="openDirectoryPicker('Directory to watch','watchDirectory')">...</button>
+        </div>
+        <div class="sdpi-item" id="dvSaveFileName">
+            <div class="sdpi-item-label">파일 이름 저장</div>
+            <input class="sdpi-item-value sdProperty hasFileButton" disabled value="" id="copyPath">
+            <button class="max100 leftMargin0" onclick="openSaveFilePicker('Copy to this file name','All files (*.*)|*.*','copyPath')">...</button>
+        </div>
+    </div>
+</body>
+</html>

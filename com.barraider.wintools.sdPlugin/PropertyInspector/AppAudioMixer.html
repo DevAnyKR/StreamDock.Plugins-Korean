@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>앱 오디오 믹서 설정</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvVolumeStep">
+            <div class="sdpi-item-label">볼륨 단계</div>
+            <select class="sdpi-item-value select sdProperty" id="volumeStep" oninput="setSettings()">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15" selected>15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowVolume">
+            <div class="sdpi-item-label">볼륨 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showVolume" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showVolume" class="sdpi-item-label"><span></span>키에 볼륨 표시</label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowAppName">
+            <div class="sdpi-item-label">이름 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showAppName" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showAppName" class="sdpi-item-label"><span></span>키에 앱 이름 표시</label>
+            </div>
+        </div>
+        <div type="textarea" class="sdpi-item" id="dvFilteredApps">
+            <div class="sdpi-item-label">필터링된 앱</div>
+            <span class="sdpi-item-value textarea">
+                <textarea type="textarea" oninput="setSettings()" class="sdProperty" id="filteredApps" placeholder="한 줄에 하나씩 앱 이름 입력"></textarea>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

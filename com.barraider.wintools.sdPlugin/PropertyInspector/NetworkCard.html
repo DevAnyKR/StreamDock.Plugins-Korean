@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>네트워크 카드 설정</title>
+    <link rel="stylesheet" href="Resources/sdpi.css">
+    <script src="Resources/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvApplications">
+            <div class="sdpi-item-label">네트워크 카드</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="networkCards" oninput="setSettings()" sdListTextProperty="displayName" sdListValueProperty="id" sdValueField="networkCard"></select>
+        </div>
+        <div class="sdpi-item" id="dvServerName">
+            <div class="sdpi-item-label">제목</div>
+            <input class="sdpi-item-value sdProperty" placeholder="eth0" value="" id="networkCardTitle" oninput="setSettings()">
+        </div>
+    </div>
+</body>
+</html>

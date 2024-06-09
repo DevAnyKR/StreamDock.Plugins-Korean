@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>앱 볼륨 절대값 설정</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@master/src/rangeTooltip.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/rangeTooltip.js"></script>
+    <script src="AppVolumeSet.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div type="radio" class="sdpi-item" id="rdAppPlayback">
+            <div class="sdpi-item-label">앱</div>
+            <div class="sdpi-item-value ">
+
+                <div class="sdpi-item-child">
+                    <input id="appCurrent" class="sdProperty sdCheckbox" type="radio" name="rdApplication" checked oninput="setSettings()">
+                    <label for="appCurrent" class="sdpi-item-label"><span></span>활성화된 창</label>
+                </div>
+                <div class="sdpi-item-child">
+                    <input id="appSpecific" class="sdProperty sdCheckbox" type="radio" name="rdApplication" oninput="setSettings()">
+                    <label for="appSpecific" class="sdpi-item-label"><span></span>앱 지정</label>
+                </div>
+            </div>
+        </div>
+        <div id="dvAppSpecific">
+            <div class="sdpi-item" id="dvApplications">
+                <div class="sdpi-item-label">앱</div>
+                <select class="sdpi-item-value select sdProperty sdList" id="applications" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="application"></select>
+            </div>
+            <div class="sdpi-item" id="dvRefresh">
+                <div class="sdpi-item-label">새로고침</div>
+                <button class="sdpi-item-value" onclick="refreshApplications()">앱 새로고침</button>
+            </div>
+            <div class="sdpi-item">
+                <details class="message info">
+                    <summary>앱을 목록에 표시하려면 소리를 재생해야 합니다</summary>
+                </details>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowVolume">
+            <div class="sdpi-item-label">볼륨 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showVolume" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showVolume" class="sdpi-item-label"><span></span>키에 볼륨 표시</label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowAppName">
+            <div class="sdpi-item-label">이름 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showAppName" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showAppName" class="sdpi-item-label"><span></span>키에 앱 이름 표시</label>
+            </div>
+        </div>
+        <hr />
+        <div type="range" class="sdpi-item sdShowTooltip" id="dvVolume">
+            <div class="sdpi-item-label" id="volumeLabel">볼륨</div>
+            <div class="sdpi-item-value">
+                <span class="clickable" value="0">0</span>
+                <input type="range" min="0" max="100" value=100 list="numbers" data-suffix="%" class="sdProperty" id="volume" oninput="setSettings()">
+                <span class="clickable" value="100">100</span>
+                <label for="volume" class="rangeLabel"></label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvFadeVolume">
+            <div class="sdpi-item-label">페이드</div>
+            <div class="sdpi-item-value">
+                <input id="fadeVolume" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="fadeVolume" class="sdpi-item-label"><span></span>위 볼륨을 서서히 변경</label>
+            </div>
+        </div>
+        <div id="dvFadeSettings" style="display:none">
+            <div type="range" class="sdpi-item sdShowTooltip" id="dvFadeLength">
+                <div class="sdpi-item-label" id="volumeLabel">페이드 길이</div>
+                <div class="sdpi-item-value">
+                    <span class="clickable" value="200">200</span>
+                    <input type="range" min="200" max="10000" value=1000 list="numbers" data-suffix=" ms" class="sdProperty" id="fadeLength" oninput="setSettings()">
+                    <span class="clickable" value="10000">10000</span>
+                    <label for="fadeLength" class="rangeLabel"></label>
+                </div>
+            </div>
+        </div>
+        <div class="sdpi-info-label hidden" style="top: -1000;" value="">툴팁</div>
+    </div>
+</body>
+</html>

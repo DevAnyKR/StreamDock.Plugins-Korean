@@ -2,10 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>앱 재생 장치</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>앱 음소거 토글</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
     <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
-    <script src="AppPlayback.js"></script>
+    <script src="AppMuteToggle.js"></script>
 </head>
 <body>
     <div class="sdpi-wrapper">
@@ -42,20 +45,6 @@
                 <label for="showAppName" class="sdpi-item-label"><span></span>키에 앱 이름 표시</label>
             </div>
         </div>
-        <div class="sdpi-item" id="dvPlaybackDevices">
-            <div class="sdpi-item-label">재생 장치</div>
-            <select class="sdpi-item-value select sdProperty sdList" id="devices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="device"></select>
-        </div>
-        <div type="checkbox" class="sdpi-item" id="dvShowDeviceName">
-            <div class="sdpi-item-label">장치 표시</div>
-            <div class="sdpi-item-value">
-                <input id="showDeviceName" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
-                <label for="showDeviceName" class="sdpi-item-label"><span></span>키에 장치 이름 표시</label>
-            </div>
-        </div>
-
-        <hr />
-
     </div>
 </body>
 </html>

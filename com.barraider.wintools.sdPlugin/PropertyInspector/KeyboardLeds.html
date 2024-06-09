@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>키보드 LED</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvKeyPress">
+            <div class="sdpi-item-label">키를 누를 때</div>
+            <select class="sdpi-item-value select sdProperty" id="keyPress" oninput="setSettings()">
+                <option value="0">- 지정 안 함 -</option>
+                <option value="1">현재 상태 잠금/해제</option>
+            </select>
+        </div>
+        <details class="message">
+            <summary>현재 상태 잠금은 Caps/Num/Scroll-lock 키의 현재 상태를 변경하는 것을 방지합니다.</summary>
+        </details>
+        <hr/>
+        <p class="summaryIconPadding"><b>Legend:&nbsp;</b> C - CapsLock, N - NumLock, S - ScrollLock</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>주 모니터 설정</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvScreens">
+            <div class="sdpi-item-label">화면</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="screens" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="uniqueValue" sdValueField="screen"></select>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvScreenFriendlyName">
+            <div class="sdpi-item-label">화면 이름</div>
+            <div class="sdpi-item-value">
+                <input id="screenFriendlyName" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                <label for="screenFriendlyName" class="sdpi-item-label"><span></span>화면에 친숙한 이름 표시</label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowScreenName">
+            <div class="sdpi-item-label">Title</div>
+            <div class="sdpi-item-value">
+                <input id="showScreenName" class="sdProperty sdCheckbox" type="checkbox" value="" oninput="setSettings()">
+                <label for="showScreenName" class="sdpi-item-label"><span></span>키에 화면 이름 표시</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

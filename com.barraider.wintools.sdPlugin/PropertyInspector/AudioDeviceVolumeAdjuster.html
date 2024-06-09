@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>오디오 장치 볼륨 상대값 설정</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvDeviceType">
+            <div class="sdpi-item-label">장치 유형</div>
+            <select class="sdpi-item-value select sdProperty" id="deviceType" oninput="setSettings()">
+                <option value="0">재생</option>
+                <option value="1">녹음</option>
+            </select>
+        </div>
+        <div class="sdpi-item" id="dvDefaultDevice">
+            <div class="sdpi-item-label">장치</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="devices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="device"></select>
+        </div>
+        <div class="sdpi-item" id="dvVolumeStep">
+            <div class="sdpi-item-label">볼륨 단계</div>
+            <select class="sdpi-item-value select sdProperty" id="volumeStep" oninput="setSettings()">
+                <option value="-25">-25</option>
+                <option value="-20">-20</option>
+                <option value="-15">-15</option>
+                <option value="-10">-10</option>
+                <option value="-5">-5</option>
+                <option value="-3">-3</option>
+                <option value="-1">-1</option>
+                <option value="1">+1</option>
+                <option value="3">+3</option>
+                <option value="5">+5</option>
+                <option value="10">+10</option>
+                <option value="15" selected>+15</option>
+                <option value="20">+20</option>
+                <option value="25">+25</option>
+            </select>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowVolume">
+            <div class="sdpi-item-label">볼륨 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showVolume" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showVolume" class="sdpi-item-label"><span></span>키에 볼륨 표시</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

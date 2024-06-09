@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>드라이브 정보 설정</title>
+    <link rel="stylesheet" href="./Resources/sdpi.css">
+    <link rel="stylesheet" href="./Resources/rangeTooltip.css">
+    <script src="./Resources/sdtools.common.js"></script>
+    <script src="./Resources/rangeTooltip.js"></script>
+    <script src="DriveInfo.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">모드</div>
+            <select class="sdpi-item-value select sdProperty" id="displayMode" oninput="setSettings()">
+                <option value="0">단일 드라이브</option>
+                <option value="1">다중 드라이브</option>
+            </select>
+        </div>
+        <div id="dvSingleDriveSettings">
+            <div class="sdpi-item" id="dvDrive">
+                <div class="sdpi-item-label">드라이브</div>
+                <select class="sdpi-item-value select sdProperty sdList" id="diskDrives" oninput="setSettings()" sdListTextProperty="displayName" sdListValueProperty="name" sdValueField="selectedDrive"></select>
+            </div>
+        </div>
+        <div id="dvMultipleDrivesSettings" style="display:none">
+            <div type="range" class="sdpi-item sdShowTooltip" id="dvRotationSpeed">
+                <div class="sdpi-item-label">Rotation Speed (sec)</div>
+                <div class="sdpi-item-value">
+                    <span class="clickable" value="1">1</span>
+                    <input type="range" min="1" max="120" data-suffix=" seconds" value="5" class="sdProperty" oninput="setSettings()" id="rotationSpeed">
+                    <span class="clickable" value="120">120</span>
+                    <label for="delay" class="rangeLabel"></label>
+                </div>
+            </div>
+        </div>
+        <div type="color" class="sdpi-item" id="dvLowColor">
+            <div class="sdpi-item-label">낮은 % 임계값</div>
+            <input type="color" class="sdpi-item-value sdProperty" value="#FFFF00" id="lowColor" oninput="setSettings()">
+            <input class="sdpi-item-value sdProperty" placeholder="20" value="" id="lowThreshold" oninput="setSettings()">
+        </div>
+        <div type="color" class="sdpi-item" id="dvPeakColor">
+            <div class="sdpi-item-label">위험 % 임계값</div>
+            <input type="color" class="sdpi-item-value sdProperty" value="#FF0000" id="criticalColor" oninput="setSettings()">
+            <input class="sdpi-item-value sdProperty" placeholder="10" value="" id="criticalThreshold" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="dvBackgroundImage">
+            <div class="sdpi-item-label">배경</div>
+            <div class="sdpi-item-group file" id="filepickergroup">
+                <input class="sdpi-item-value sdProperty sdFile" type="file" id="backgroundImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                <label class="sdpi-file-info " for="backgroundImage" id="backgroundImageFilename">파일 없음...</label>
+                <label class="sdpi-file-label" for="backgroundImage">파일 선택...</label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowLabel">
+            <div class="sdpi-item-label empty"></div>
+            <div class="sdpi-item-value">
+                <input id="showLabel" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showLabel" class="sdpi-item-label"><span></span>드라이브명 표시</label>
+            </div>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvInvertBar">
+            <div class="sdpi-item-label empty"></div>
+            <div class="sdpi-item-value">
+                <input id="invertBar" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="invertBar" class="sdpi-item-label"><span></span>진행 막대 반전</label>
+            </div>
+        </div>
+        <div class="sdpi-info-label hidden" style="top: -1000;" value="">툴팁</div>
+    </div>
+</body>
+</html>

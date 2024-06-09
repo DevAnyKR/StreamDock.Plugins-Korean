@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>핑 설정</title>
+    <link rel="stylesheet" href="Resources/sdpi.css">
+    <script src="Resources/sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvServerName">
+            <div class="sdpi-item-label">서버/IP</div>
+            <input class="sdpi-item-value sdProperty" placeholder="google.com" value="" id="serverName">
+            <button class="max100 leftMargin0" onclick="setSettings()">저장</button>
+        </div>
+        <div class="sdpi-item" id="dvServerName">
+            <div class="sdpi-item-label">서버 제목</div>
+            <input class="sdpi-item-value sdProperty" placeholder="Google" value="" id="serverTitle" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="dvFrequency">
+            <div class="sdpi-item-label">주기 (ms)</div>
+            <input class="sdpi-item-value sdProperty" placeholder="1000" value="" id="pingFrequency" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="dvLatency">
+            <div class="sdpi-item-label">정상 대기 시간</div>
+            <input class="sdpi-item-value sdProperty" id="normalLatency" inputmode="numeric" pattern="[0-9]*" type="number" placeholder="40" oninput="setSettings()">
+        </div>
+        <div class="sdpi-item" id="dvLowLatency">
+            <div class="sdpi-item-label">낮은 대기 시간 이미지</div>
+            <div class="sdpi-item-group file" id="filepickergroup">
+                <input class="sdpi-item-value sdProperty sdFile" type="file" id="lowImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                <label class="sdpi-file-info " for="lowImage" id="lowImageFilename">파일 없음...</label>
+                <label class="sdpi-file-label" for="lowImage">파일 선택...</label>
+            </div>
+        </div>
+        <div class="sdpi-item" id="dvHighLatency">
+            <div class="sdpi-item-label">높은 대기 시간 이미지</div>
+            <div class="sdpi-item-group file" id="filepickergroup">
+                <input class="sdpi-item-value sdProperty sdFile" type="file" id="highImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                <label class="sdpi-file-info " for="highImage" id="highImageFilename">파일 없음...</label>
+                <label class="sdpi-file-label" for="highImage">파일 선택...</label>
+            </div>
+        </div>
+        <div class="sdpi-item" id="dvTimeoutImage">
+            <div class="sdpi-item-label">시간 초과 이미지</div>
+            <div class="sdpi-item-group file" id="filepickergroup">
+                <input class="sdpi-item-value sdProperty sdFile" type="file" id="timeoutImage" accept=".jpg, .jpeg, .png, .ico, .gif, .bmp, .tiff" oninput="setSettings()">
+                <label class="sdpi-file-info " for="timeoutImage" id="timeoutImageFilename">파일 없음...</label>
+                <label class="sdpi-file-label" for="timeoutImage">파일 선택...</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

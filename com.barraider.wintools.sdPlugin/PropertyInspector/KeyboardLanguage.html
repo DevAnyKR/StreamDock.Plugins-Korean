@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>키보드 언어</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@master/src/rangeTooltip.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/rangeTooltip.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div type="range" class="sdpi-item sdShowTooltip" id="dvTextLength">
+            <div class="sdpi-item-label" id="textLimitLabel">글자 길이 제한</div>
+            <div class="sdpi-item-value">
+                <span class="clickable" value="0">0</span>
+                <input type="range" min="0" max="50" value=0 list="numbers" data-suffix=" chars" class="sdProperty" id="textLimit" oninput="setSettings()">
+                <span class="clickable" value="50">50</span>
+                <label for="textLimit" class="rangeLabel"></label>
+            </div>
+        </div>
+        <details class="message">
+            <summary>참고: 열린 창에 관리자 권한(Windows에서 부과하는 제한)이 있으면 버튼을 클릭해도 작동하지 않습니다.</summary>
+        </details>
+    </div>
+    <div class="sdpi-info-label hidden" style="top: -1000;" value="">툴팁</div>
+</body>
+</html>

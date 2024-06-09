@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>가상 데스크탑 전환</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="VDSwitch.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div class="sdpi-item" id="dvApplications">
+            <div class="sdpi-item-label">전환하기</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="desktops" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="name"></select>
+        </div>
+        <div class="sdpi-item" id="dvReset">
+            <div class="sdpi-item-label empty"></div>
+            <button class="sdpi-item-value" onclick="refreshDesktops()">데스크탑 새로고침</button>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvCreate">
+            <div class="sdpi-item-label">생성</div>
+            <div class="sdpi-item-value">
+                <input id="createVirtualDesktop" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="createVirtualDesktop" class="sdpi-item-label"><span></span>존재하지 않는 경우 데스크톱 만들기</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

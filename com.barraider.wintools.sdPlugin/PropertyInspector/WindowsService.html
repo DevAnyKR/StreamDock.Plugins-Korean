@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>streamdeck_WinTools Settings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="WindowsService.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안은 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <details class="message">
+            <summary>참고: 이 작업이 올바르게 작동하려면 Stream Deck을 관리자로 실행해야 합니다.</summary>
+        </details>
+        <div class="sdpi-item" id="dvApplications">
+            <div class="sdpi-item-label">서비스</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="services" oninput="setSettings()" sdListTextProperty="displayName" sdListValueProperty="serviceName" sdValueField="serviceName"></select>
+        </div>
+        <div class="sdpi-item" id="select_single">
+            <div class="sdpi-item-label">동작</div>
+            <select class="sdpi-item-value select sdProperty" id="action" oninput="setSettings()" value="0">
+                <option value="0">서비스 재시작</option>
+                <option value="1">서비스 시작</option>
+                <option value="2">서비스 중지</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
