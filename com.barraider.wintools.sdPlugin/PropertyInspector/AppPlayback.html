@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App Playback</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="AppPlayback.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <details class="message">
+            <summary>피드백/제안이 필요하시면 <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span>으로 연락주세요.</summary>
+        </details>
+        <div type="radio" class="sdpi-item" id="rdAppPlayback">
+            <div class="sdpi-item-label">앱</div>
+            <div class="sdpi-item-value ">
+
+                <div class="sdpi-item-child">
+                    <input id="appCurrent" class="sdProperty sdCheckbox" type="radio" name="rdApplication" checked oninput="setSettings()">
+                    <label for="appCurrent" class="sdpi-item-label"><span></span>활성화된 창</label>
+                </div>
+                <div class="sdpi-item-child">
+                    <input id="appSpecific" class="sdProperty sdCheckbox" type="radio" name="rdApplication" oninput="setSettings()">
+                    <label for="appSpecific" class="sdpi-item-label"><span></span>앱 지정</label>
+                </div>
+            </div>
+        </div>
+        <div id="dvAppSpecific">
+            <div class="sdpi-item" id="dvApplications">
+                <div class="sdpi-item-label">앱</div>
+                <select class="sdpi-item-value select sdProperty sdList" id="applications" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="application"></select>
+            </div>
+            <details class="message">
+                <summary>앱을 목록에 표시하려면 소리를 재생해야 합니다</summary>
+            </details>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowAppName">
+            <div class="sdpi-item-label">이름 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showAppName" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showAppName" class="sdpi-item-label"><span></span>키에 앱 이름 표시</label>
+            </div>
+        </div>
+        <div class="sdpi-item" id="dvPlaybackDevices">
+            <div class="sdpi-item-label">재생 장치</div>
+            <select class="sdpi-item-value select sdProperty sdList" id="devices" oninput="setSettings()" sdListTextProperty="name" sdListValueProperty="name" sdValueField="device"></select>
+        </div>
+        <div type="checkbox" class="sdpi-item" id="dvShowDeviceName">
+            <div class="sdpi-item-label">장치 표시</div>
+            <div class="sdpi-item-value">
+                <input id="showDeviceName" type="checkbox" value="" class="sdProperty sdCheckbox" oninput="setSettings()">
+                <label for="showDeviceName" class="sdpi-item-label"><span></span>키에 장치 이름 표시</label>
+            </div>
+        </div>
+
+        <hr />
+
+    </div>
+</body>
+</html>
