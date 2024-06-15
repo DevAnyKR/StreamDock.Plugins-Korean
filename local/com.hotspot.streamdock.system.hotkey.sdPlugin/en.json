@@ -1,0 +1,8 @@
+{
+  "Description": "단축키 활성화", 
+  "Name": "단축키", 
+  "com.hotspot.streamdock.system.hotkey": {
+    "Name": "단축키", 
+    "Tooltip": "단축키 활성화"
+  }
+}

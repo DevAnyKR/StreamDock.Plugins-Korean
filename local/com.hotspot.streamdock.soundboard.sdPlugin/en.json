@@ -1,0 +1,12 @@
+{
+  "Description": "사운드 보드", 
+  "Name": "사운드 보드", 
+  "com.hotspot.streamdock.soundboard.playaudio": {
+    "Name": "오디오 재생", 
+    "Tooltip": "오디오 재생"
+  }, 
+  "com.hotspot.streamdock.soundboard.stopaudioplay": {
+    "Name": "오디오 중지", 
+    "Tooltip": "모든 재생 중지"
+  }
+}

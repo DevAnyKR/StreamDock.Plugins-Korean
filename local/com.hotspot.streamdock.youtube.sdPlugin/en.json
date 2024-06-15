@@ -1,0 +1,12 @@
+{
+  "Description": "YouTube 제어", 
+  "Name": "YouTube", 
+  "com.hotspot.streamdock.youtube.chatmessage": {
+    "Name": "채팅 메시지", 
+    "Tooltip": "지정 메시지 보내기"
+  },
+  "com.hotspot.streamdock.youtube.viewers": {
+    "Name": "시청자", 
+    "Tooltip": "시청자수 보이기"
+  }
+}

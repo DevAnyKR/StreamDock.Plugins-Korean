@@ -1,0 +1,8 @@
+{
+  "Description": "미리 지정된 비밀번호 입력", 
+  "Name": "비밀번호 입력", 
+  "com.hotspot.streamdock.system.password": {
+    "Name": "비밀번호 입력", 
+    "Tooltip": "미리 지정된 비밀번호 입력"
+  }
+}

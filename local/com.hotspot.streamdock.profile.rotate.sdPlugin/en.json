@@ -1,0 +1,8 @@
+{
+  "Description": "이전/다음 프로파일 전환",
+  "Name": "프로파일 이동",
+  "com.hotspot.streamdock.profile.rotate": {
+    "Name": "프로파일 이동",
+    "Tooltip": "다른 프로파일로 전환"
+  }
+}

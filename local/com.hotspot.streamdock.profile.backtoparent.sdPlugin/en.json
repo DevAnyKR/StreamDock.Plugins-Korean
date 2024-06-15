@@ -1,0 +1,8 @@
+{
+  "Description": "이전 페이지 이동", 
+  "Name": "이전", 
+  "com.hotspot.streamdock.profile.backtoparent": {
+    "Name": "이전", 
+    "Tooltip": "이전 페이지 이동"
+  }
+}

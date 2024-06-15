@@ -1,0 +1,37 @@
+{
+  "Description": "빠른 제어", 
+  "Name": "빠른 제어", 
+  "Category": "빠른 제어",  
+  "com.hotspot.streamdock.quickcontrol.sleep": {
+    "Name": "절전", 
+    "Tooltip": "PC를 절전 모드로 전환하거나, PC가 최대 절전모드를 지원하는 경우 최대 절전모드로 전환합니다"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.switchscreen": {
+    "Name": "화면 전환", 
+    "Tooltip": "화면 전환"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.speechrecognition": {
+    "Name": "음성인식", 
+    "Tooltip": "음성인식 켜기"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.displaydesktop": {
+    "Name": "바탕화면 보기", 
+    "Tooltip": "바탕화면 보기"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.mute": {
+    "Name": "음소거", 
+    "Tooltip": "음소거"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.volumedown": {
+    "Name": "볼륨 내리기", 
+    "Tooltip": "볼륨 내리기"
+  },
+  "com.hotspot.streamdock.hotkey.quickcontrol.volumeup": {
+    "Name": "볼륨 올리기", 
+    "Tooltip": "볼륨 올리기"
+  },
+  "com.hotspot.streamdock.quickcontrol.microphone": {
+    "Name": "마이크", 
+    "Tooltip": "마이크 음소거/음소거 해제"
+  }
+}

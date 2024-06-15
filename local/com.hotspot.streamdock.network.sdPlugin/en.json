@@ -1,0 +1,8 @@
+{
+  "Description": "네트워크 통신", 
+  "Name": "네트워크", 
+  "com.hotspot.streamdock.network.udp": {
+    "Name": "UDP", 
+    "Tooltip": "UDP 통신"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Description": "마우스 이벤트 시뮬레이션", 
+  "Name": "마우스  이벤트", 
+  "com.hotspot.streamdock.mouse.event": {
+    "Name": "마우스  이벤트", 
+    "Tooltip": "마우스  이벤트"
+  }
+}

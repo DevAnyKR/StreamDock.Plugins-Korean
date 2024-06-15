@@ -1,0 +1,17 @@
+{
+  "Description": "다중 동작",
+  "Name": "다중 동작",
+  "Category": "다중 동작",
+  "com.hotspot.streamdock.multiactions.routine": {
+    "Name": "다중 동작",
+    "Tooltip": "여러 동작을 실행합니다"
+  },
+  "com.hotspot.streamdock.multiactions.random": {
+    "Name": "임의 동작",
+    "Tooltip": "임의 동작을 실행합니다"
+  },
+  "com.hotspot.streamdock.multiactions.delay": {
+    "Name": "지연",
+    "Tooltip": "동작 사이에 지연 시간을 추가합니다"
+  }
+}

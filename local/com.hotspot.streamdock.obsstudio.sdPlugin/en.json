@@ -1,0 +1,50 @@
+{
+	"Author": "Hotspot",
+	"Name": "OBS Studio",
+	"Description": "OBS 스튜디오용 Stream Dock 플러그인",
+	"Category": "OBS Studio",
+    "com.hotspot.streamdock.obsstudio.record": {
+        "Name": "녹화",
+        "Tooltip": "파일로 녹화 시작/정지"
+    },
+    "com.hotspot.streamdock.obsstudio.stream": {
+        "Name": "방송",
+        "Tooltip": "방송 시작/정지"
+    },
+    "com.hotspot.streamdock.obsstudio.virtualcamera": {
+        "Name": "가상 카메라",
+        "Tooltip": "가상 카메라 켜기/끄기"
+    },
+    "com.hotspot.streamdock.obsstudio.scene": {
+        "Name": "장면",
+        "Tooltip": "장면 변경"
+    },
+    "com.hotspot.streamdock.obsstudio.source": {
+        "Name": "원본 보이기",
+        "Tooltip": "원본 보이기/숨기기"
+    },
+    "com.hotspot.streamdock.obsstudio.mixeraudio": {
+        "Name": "오디오 믹서",
+        "Tooltip": "음원 음소거/음소거해제"
+    },
+    "com.hotspot.streamdock.obsstudio.studiomode": {
+        "Name": "스튜디오 모드",
+        "Tooltip": "스튜디오 모드 전환"
+    },
+    "com.hotspot.streamdock.obsstudio.screenshot": {
+        "Name": "스크린샷",
+        "Tooltip": "활성화된 장면 스크린샷"
+    },
+    "com.hotspot.streamdock.obsstudio.transition": {
+        "Name": "전환",
+        "Tooltip": "전환 표시"
+    },
+    "com.hotspot.streamdock.obsstudio.shortcutup": {
+        "Name": "크로마키 UP",
+        "Tooltip": "크로마키 UP 단축키"
+    },
+    "com.hotspot.streamdock.obsstudio.shortcutdn": {
+        "Name": "크로마키 DN",
+        "Tooltip": "크로마키 DN 단축키"
+    }
+}

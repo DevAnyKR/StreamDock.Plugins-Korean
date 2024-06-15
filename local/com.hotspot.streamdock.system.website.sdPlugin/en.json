@@ -1,0 +1,8 @@
+{
+  "Description": "웹사이트 열기", 
+  "Name": "웹사이트", 
+  "com.hotspot.streamdock.system.website": {
+    "Name": "웹사이트", 
+    "Tooltip": "URL 열기"
+  }
+}

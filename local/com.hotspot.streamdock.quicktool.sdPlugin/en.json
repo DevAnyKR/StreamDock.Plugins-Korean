@@ -1,0 +1,41 @@
+{
+  "Description": "빠른 도구", 
+  "Name": "빠른 도구", 
+  "Category": "빠른 도구",
+  "com.hotspot.streamdock.quicktool.calculator": {
+    "Name": "계산기", 
+    "Tooltip": "계산기 열기"
+  },
+  "com.hotspot.streamdock.hotkey.quicktool.emoticons": {
+    "Name": "이모티콘", 
+    "Tooltip": "이모티콘 열기"
+  },
+  "com.hotspot.streamdock.quicktool.mail": {
+    "Name": "메일", 
+    "Tooltip": "메일 열기"
+  },
+  "com.hotspot.streamdock.quicktool.music": {
+    "Name": "음악", 
+    "Tooltip": "음악 켜기"
+  },
+  "com.hotspot.streamdock.quicktool.homepage": {
+    "Name": "홈페이지", 
+    "Tooltip": "홈페이지 열기"
+  },
+  "com.hotspot.streamdock.hotkey.quicktool.notification": {
+    "Name": "알림", 
+    "Tooltip": "알림 열기"
+  },
+  "com.hotspot.streamdock.hotkey.quicktool.taskmanager": {
+    "Name": "작업관리자", 
+    "Tooltip": "작업관리자 열기"
+  },
+  "com.hotspot.streamdock.quicktool.controlpanel": {
+    "Name": "제어판", 
+    "Tooltip": "제어판 열기"
+  },
+  "com.hotspot.streamdock.hotkey.quicktool.searchbar": {
+    "Name": "검색창", 
+    "Tooltip": "검색창 열기"
+  }
+}

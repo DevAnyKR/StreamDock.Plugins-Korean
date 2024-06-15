@@ -1,0 +1,21 @@
+{
+  "Description": "브라우저 제어", 
+  "Name": "브라우저", 
+  "Category": "브라우저",
+  "com.hotspot.streamdock.hotkey.browser.back": {
+    "Name": "뒤로", 
+    "Tooltip": "이전페이지로 돌아가기"
+  },
+  "com.hotspot.streamdock.hotkey.browser.forward": {
+    "Name": "앞으로", 
+    "Tooltip": "다음페이지"
+  },
+  "com.hotspot.streamdock.hotkey.browser.refresh": {
+    "Name": "새로고침", 
+    "Tooltip": "현재 페이지 새로고침"
+  },
+  "com.hotspot.streamdock.hotkey.browser.collect": {
+    "Name": "북마크", 
+    "Tooltip": "현재페이지 북마크"
+  }
+}

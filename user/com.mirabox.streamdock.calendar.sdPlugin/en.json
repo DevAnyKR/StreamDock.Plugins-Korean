@@ -1,0 +1,12 @@
+{
+  "Localization": {
+	"Theme switching：": "테마 변경："
+  },
+  "Name": "달력",
+  "Category": "달력",
+  "Description": "오늘의 날짜 정보를 조회합니다",
+  "com.mirabox.streamdock.calendar.action1": {
+    "Name": "달력",
+    "Tooltip": "오늘의 정보"
+  }
+}
