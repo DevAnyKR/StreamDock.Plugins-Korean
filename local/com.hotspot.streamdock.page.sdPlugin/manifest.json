@@ -1,0 +1,78 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/previousPage",
+      "Name": "Previous page", 
+      "States": [
+        {
+          "Image": "Images/btn_previousPage"
+        }
+      ], 
+      "UUID": "com.hotspot.streamdock.page.previous",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Icon": "Images/nextPage",
+      "Name": "Next page", 
+      "States": [
+        {
+          "Image": "Images/btn_nextPage"
+        }
+      ], 
+      "UUID": "com.hotspot.streamdock.page.next",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Icon": "Images/goToPage",
+      "Name": "Go to page", 
+      "States": [
+        {
+          "Image": "Images/btn_goToPage",
+          "TitleAlignment": "middle",
+          "FontSize": "20"
+        }
+      ], 
+      "UUID": "com.hotspot.streamdock.page.goto",
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false
+    },
+    {
+      "Icon": "Images/pageIndicator",
+      "Name": "Page Indicator",
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "States": [
+        {
+            "Image": "Images/btn_pageIndicator",
+            "TitleAlignment": "middle",
+            "FontSize": "20"
+        }
+      ],
+      "UUID": "com.hotspot.streamdock.page.indicator",
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false
+    }
+    ,
+    {
+      "Icon": "Images/changePage",
+      "Name": "change page", 
+      "States": [
+        {
+          "Image": "Images/changePage"
+        }
+      ], 
+      "Controllers": [ "Knob" ],
+      "Tooltip": "...", 
+      "UUID": "com.hotspot.streamdock.page.change",
+      "SupportedInMultiActions": false
+    }
+  ], 
+  "Author": "Hotspot", 
+  "Description": "Pages navigation", 
+  "Name": "Pages", 
+  "URL": "http://video.hotspotek.com.cn/", 
+  "PrivateAPI": true,
+  "Version": "1.0"
+}

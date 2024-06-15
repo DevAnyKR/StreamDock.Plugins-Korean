@@ -1,0 +1,24 @@
+{
+  "Description": "페이지 탐색",
+  "Name": "페이지",
+  "com.hotspot.streamdock.page.previous": {
+    "Name": "이전 페이지",
+    "Tooltip": "이전페이지로 변경"
+  },
+  "com.hotspot.streamdock.page.next": {
+    "Name": "다음 페이지",
+    "Tooltip": "다음페이지로 변경"
+  },
+  "com.hotspot.streamdock.page.goto": {
+    "Name": "지정페이지",
+    "Tooltip": "지정페이지 번호"
+  },
+  "com.hotspot.streamdock.page.indicator": {
+    "Name": "페이지 표시",
+    "Tooltip": "현재 페이지 번호 표시"
+  },
+  "com.hotspot.streamdock.page.change": {
+    "Name": "페이지 전환",
+    "Tooltip": "회전하여 좌우 시트 전환"
+  }
+}
