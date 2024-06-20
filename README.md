@@ -9,11 +9,11 @@
 
 ### Stream Dock 플러그인 번역 파일 설치 위치
 
-써드파티 플러그인
+써드파티 플러그인(`user`)
 
 `%AppData%\HotSpot\StreamDock\plugins` 디렉터리에 번역된 플러그인 폴더를 덮어씁니다.
 
-기본 플러그인
+기본 플러그인(`local`)
 
 `C:\Program Files (x86)\StreamDock\plugins` 디렉터리에 번역된 플러그인 폴더를 덮어씁니다.
 
