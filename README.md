@@ -1,5 +1,11 @@
 # 플러그인 한국어 번역
-대상: Elgato Stream Deck, MiraBox Stream Dock
+![GitHub last commit](https://img.shields.io/github/last-commit/DevAnyKR/StreamDock.Plugins-Korean)
+![GitHub License](https://img.shields.io/github/license/devanykr/StreamDock.Plugins-Korean)
+![GitHub Discussions](https://img.shields.io/github/discussions/devanykr/StreamDock.Plugins-Korean)
+![GitHub repo size](https://img.shields.io/github/repo-size/devanykr/StreamDock.Plugins-Korean)
+![GitHub Repo stars](https://img.shields.io/github/stars/devanykr/StreamDock.Plugins-Korean?style=plastic&label=%E2%AD%90)
+
+대상: Stream Deck, Stream Dock, AJAZZ, Monstar Deck
 
 ## 사용법
 
