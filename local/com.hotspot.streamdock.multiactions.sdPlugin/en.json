@@ -13,5 +13,21 @@
   "com.hotspot.streamdock.multiactions.delay": {
     "Name": "지연",
     "Tooltip": "동작 사이에 지연 시간을 추가합니다"
+  },
+  "com.hotspot.streamdock.multiactions.LunBo": {
+    "Name": "순환",
+    "Tooltip": "지연 시간으로 순환합니다"
+  },
+  "com.hotspot.streamdock.multiactions.toggle": {
+    "Name": "동작 토글",
+    "Tooltip": "한 단계로 플러그인과 플러그인 간 전환"
+  },
+  "com.hotspot.streamdock.multiactions.ActionTrigger": {
+    "Name": "동작 트리거",
+    "Tooltip": "손잡이를 돌려 작업을 수행합니다"
+  },
+  "com.hotspot.streamdock.multiactions.ActionWheel": {
+    "Name": "동작 휠",
+    "Tooltip": "손잡이로 여러 작업을 실행합니다"
   }
 }

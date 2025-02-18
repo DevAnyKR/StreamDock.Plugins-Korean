@@ -74,8 +74,12 @@
     "Tooltip": "컴퓨터를 잠급니다."
   },
   "com.barraider.wintools.multiclip": {
-    "Name": "멀티클립",
+    "Name": "멀티 클립",
     "Tooltip": "각 멀티 클립 키는 전용 클립보드입니다."
+  },
+  "com.barraider.wintools.multiclipclear":{
+    "Name": "멀티 클립 지우기",
+    "Tooltip": "멀티 클립의 내용을 지웁니다."
   },
   "com.barraider.wintools.networkcard": {
     "Name": "네트워크 카드 정보",
@@ -124,5 +128,25 @@
   "com.barraider.wintools.windowsexplorer": {
     "Name": "Windows 탐색기 스크래치 패드",
     "Tooltip": "나중에 빠르게 열 수 있도록 현재 폴더를 Windows 탐색기에 저장합니다."
+  },
+  "com.barraider.wintools.btcontrol": {
+    "Name": "블루투스 제어",
+    "Tooltip": "블루투스 장치를 연결하고 상태를 봅니다."
+  },
+  "com.barraider.wintools.monitorbrightnessset":{
+    "Name": "모니터 밝기",
+    "Tooltip": "모니터의 밝기를 설정합니다."
+  },
+  "com.barraider.wintools.projection":{
+    "Name": "다중 모니터 출력",
+    "Tooltip": "다른 화면에 표시 방법을 설정합니다."
+  },
+  "com.barraider.wintools.shutdown":{
+    "Name": "시스템 종료/재시작작",
+    "Tooltip": "시스템을 종료하거나 재시작합니다."
+  },
+  "com.barraider.wintools.usbcontrol":{
+    "Name": "USB 제어",
+    "Tooltip": "USB 장치를 연결/제거하거나 상태를 봅니다."
   }
 }

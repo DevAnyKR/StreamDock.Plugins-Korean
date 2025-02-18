@@ -4,5 +4,9 @@
   "com.hotspot.streamdock.device.brightness": {
     "Name": "밝기",
     "Tooltip": "장치의 밝기 조정"
+  },
+  "com.hotspot.streamdock.device.devsleep": {
+    "Name": "절전",
+    "Tooltip": "장치의 화면 끄기"
   }
 }

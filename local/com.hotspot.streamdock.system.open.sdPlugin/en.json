@@ -1,8 +1,12 @@
 {
-  "Description": "앱, 파일 또는 폴더 열기", 
+  "Description": "앱 또는 파일, 폴더 열기", 
   "Name": "열기", 
   "com.hotspot.streamdock.system.open": {
     "Name": "열기", 
-    "Tooltip": "앱, 파일 또는 폴더 열기"
+    "Tooltip": "앱 또는 파일, 폴더 열기"
+  },
+  "com.hotspot.streamdock.system.openApps": {
+    "Name": "앱 열기", 
+    "Tooltip": "앱 열기"
   }
 }

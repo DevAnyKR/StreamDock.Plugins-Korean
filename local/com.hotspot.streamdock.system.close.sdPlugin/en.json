@@ -1,0 +1,9 @@
+{
+  "Description": "앱 닫기", 
+  "Name": "닫기", 
+  "com.hotspot.streamdock.system.close": {
+    "Name": "닫기", 
+    "Tooltip": "앱 닫기"
+  }
+}
+
