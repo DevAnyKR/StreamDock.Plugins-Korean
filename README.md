@@ -19,11 +19,11 @@
 
 #### 써드파티 플러그인([user](https://github.com/DevAnyKR/StreamDock.Plugins-Korean/tree/main/user) 폴더 내의 플러그인 폴더들)
 
-`%AppData%\HotSpot\StreamDock\plugins` 디렉터리에 플러그인 폴더를 덮어씁니다.
+(StreamDock 기준) `%AppData%\HotSpot\StreamDock\plugins` 디렉터리에 플러그인 폴더를 덮어씁니다.
 
 #### 기본 플러그인([local](https://github.com/DevAnyKR/StreamDock.Plugins-Korean/tree/main/local) 폴더 내의 플러그인 폴더들)
 
-`C:\Program Files (x86)\StreamDock\plugins` 디렉터리에 플러그인 폴더를 덮어씁니다.
+(StreamDock 기준) `C:\Program Files (x86)\StreamDock\plugins` 디렉터리에 플러그인 폴더를 덮어씁니다.
 
 ### 프로그램 재실행
 
