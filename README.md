@@ -27,8 +27,7 @@
 
 Stream 프로그램을 종료 후 재시작하면 적용됩니다.
 
-![image](https://github.com/DevelopmentAnything/StreamDeckPlugin-Korean/assets/110871727/ea5b116a-a48a-4dba-92b6-bc30b6c0d74e)
-
+<img width="263" height="1077" alt="image" src="https://github.com/user-attachments/assets/1ac42a33-3a15-4924-8db4-8117e4af7c0f" />
 
 ## 라이선스
 
