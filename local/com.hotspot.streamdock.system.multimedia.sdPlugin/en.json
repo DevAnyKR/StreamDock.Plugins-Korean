@@ -3,6 +3,10 @@
   "Name": "멀티미디어", 
   "com.hotspot.streamdock.system.multimedia": {
     "Name": "멀티미디어", 
-    "Tooltip": "미디어 재생 제어"
+    "Tooltip": "미디어 재생 제"
+  },
+  "com.hotspot.streamdock.system.volume": {
+    "Name": "시스템 볼륨", 
+    "Tooltip": "시스템 볼륨 제어"
   }
 }

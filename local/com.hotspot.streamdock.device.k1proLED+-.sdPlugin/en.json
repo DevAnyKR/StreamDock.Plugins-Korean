@@ -1,0 +1,12 @@
+{
+  "Description": "기기의 밝기를 조절합니다", 
+  "Name": "밝기", 
+  "com.hotspot.streamdock.device.brightness": {
+    "Name": "밝기", 
+    "Tooltip": "기기의 밝기를 조절합니다"
+  },
+  "com.hotspot.streamdock.device.devsleep": {
+    "Name": "devsleep",
+    "Tooltip": "기기를 절전 모드로 전환"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "Name": "PR 플러그인",
+  "Description": "이것은 PR 플러그인입니다",
+  "Category": "PR",
+  "Localization": {
+    "handle": "핸들",
+    "knobDown": "노브 누름, 값 재설정",
+    "positionX": "X 위치",
+    "positionY": "Y 위치",
+    "zoomHeight": "확대/축소 높이",
+    "zoomWidth": "확대/축소 너비",
+    "zoom": "확대/축소",
+    "rotation": "회전",
+    "anchorX": "앵커 X",
+    "anchorY": "앵커 Y",
+    "flashFilter": "플래시 필터",
+    "cropLeft": "자르기 왼쪽",
+    "cropRight": "자르기 오른쪽",
+    "cropTop": "자르기 위쪽",
+    "cropBottom": "자르기 아래쪽",
+    "opacity": "불투명도",
+    "basicIntensity": "기본 강도",
+    "temperature": "색 온도",
+    "saturation": "채도",
+    "exposure": "노출",
+    "contrast": "대비",
+    "highlights": "밝은 영역",
+    "shadows": "어두운 영역",
+    "whites": "흰색",
+    "blacks": "검은색",
+    "creativeIntensity": "창의적 강도",
+    "fadeFilm": "필름 페이드",
+    "sharpen": "선명하게",
+    "naturalSaturation": "자연스러운 채도",
+    "createSaturation": "창의적 채도",
+    "tintBalance": "색조 균형",
+    "textPositionX": "텍스트 X 위치",
+    "textPositionY": "텍스트 Y 위치",
+    "textVerticalScale": "텍스트 수직 크기",
+    "textHorizontalScale": "텍스트 수평 크기",
+    "textUniformScale": "텍스트 균일 크기",
+    "textRotation": "텍스트 회전",
+    "textOpacity": "텍스트 불투명도"
+  },
+  "com.mirabox.streamdock.PR.action1": {
+    "Name": "모션",
+    "Tooltip": "모션 조절"
+  },
+  "com.mirabox.streamdock.PR.action2": {
+    "Name": "불투명도",
+    "Tooltip": "불투명도 조절"
+  },
+  "com.mirabox.streamdock.PR.action3": {
+    "Name": "색상",
+    "Tooltip": "색상 조절"
+  },
+  "com.mirabox.streamdock.PR.action4": {
+    "Name": "텍스트",
+    "Tooltip": "텍스트 조절"
+  },
+  "com.mirabox.streamdock.pr.action5": {
+    "Name": "타임라인 제어",
+    "Tooltip": "타임라인 제어"
+  },
+  "com.hotspot.streamdock.hotkey.pr.copy": {
+    "Name": "복사",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.paste": {
+    "Name": "붙여넣기",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.cut": {
+    "Name": "잘라내기",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.play": {
+    "Name": "재생/일시정지",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.delete": {
+    "Name": "삭제",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.undo": {
+    "Name": "실행 취소",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.addEdit": {
+    "Name": "편집점 추가",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.effectsPanel": {
+    "Name": "효과 패널 열기",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.toggleFullScreen": {
+    "Name": "전체 화면 전환",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.razor": {
+    "Name": "자르기 도구(Razor)",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.penTool": {
+    "Name": "펜 도구",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.rectangleTool": {
+    "Name": "사각형 도구",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.rippleEditingTools": {
+    "Name": "잔물결 편집 도구",
+    "Tooltip": ""
+  },
+  "com.hotspot.streamdock.hotkey.pr.addMarker": {
+    "Name": "마커 추가",
+    "Tooltip": ""
+  },
+  "com.mirabox.streamdock.knob.hotkey.pr.timeLineSlow": {
+    "Name": "이전/다음 프레임 (느리게)",
+    "Tooltip": ""
+  },
+  "com.mirabox.streamdock.knob.hotkey.pr.timeLineFast": {
+    "Name": "이전/다음 프레임 (빠르게)",
+    "Tooltip": ""
+  },
+  "com.mirabox.streamdock.knob.hotkey.pr.videoTracksHeight": {
+    "Name": "비디오 트랙 높이",
+    "Tooltip": ""
+  },
+  "com.mirabox.streamdock.knob.hotkey.pr.zoom": {
+    "Name": "확대/축소",
+    "Tooltip": ""
+  }
+}

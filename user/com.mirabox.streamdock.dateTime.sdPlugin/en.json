@@ -1,0 +1,10 @@
+{
+  "Name": "날짜/시간",
+  "Category": "날짜/시간",
+  "Description": "날짜/시간",
+  "com.mirabox.streamdock.dateTime.action1": {
+    "Name": "날짜/시간",
+    "Tooltip": "날짜/시간"
+  },
+  "Localization": {}
+}

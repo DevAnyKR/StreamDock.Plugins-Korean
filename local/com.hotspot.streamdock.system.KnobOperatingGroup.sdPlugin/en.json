@@ -1,0 +1,9 @@
+{
+  "Description": "노브 조작 그룹을 활성화합니다", 
+  "Category": "노브 조작 그룹", 
+  "Name": "노브 조작 그룹", 
+  "com.hotspot.streamdock.system.KnobOperatingGroup": {
+    "Name": "노브 조작 그룹", 
+    "Tooltip": "노브 조작 그룹을 활성화합니다"
+  }
+}

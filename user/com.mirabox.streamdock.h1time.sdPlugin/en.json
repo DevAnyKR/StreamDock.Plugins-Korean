@@ -1,0 +1,18 @@
+{
+  "Name": "시간",
+  "Category": "시간",
+  "Description": "시간",
+  "com.mirabox.streamdock.h1time.action1": {
+    "Name": "시간",
+    "Tooltip": "시간"
+  },
+  "com.mirabox.streamdock.h1time.action2": {
+    "Name": "스톱워치",
+    "Tooltip": "스톱워치"
+  },
+  "com.mirabox.streamdock.h1time.action3": {
+    "Name": "타이머",
+    "Tooltip": "타이머"
+  },
+  "Localization": {}
+}

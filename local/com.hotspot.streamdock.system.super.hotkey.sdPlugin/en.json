@@ -1,0 +1,8 @@
+{
+  "Description": "키 명령 활성화", 
+  "Name": "슈퍼 핫키", 
+  "com.hotspot.streamdock.system.super.hotkey": {
+    "Name": "슈퍼 핫키", 
+    "Tooltip": "게임 키 차단 방지"
+  }
+}

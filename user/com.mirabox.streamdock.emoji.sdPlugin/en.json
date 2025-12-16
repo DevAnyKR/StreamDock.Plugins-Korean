@@ -1,0 +1,16 @@
+{
+  "Name": "이모티콘",
+  "Description": "이모티콘",
+  "Category": "이모티콘",
+  "com.mirabox.streamdock.emoji.emoji": {
+    "Name": "이모티콘 (TouchBar 전용)",
+    "Tooltip": "이모티콘"
+  },
+  "com.mirabox.streamdock.emoji.emoji_send": {
+    "Name": "이모티콘 보내기",
+    "Tooltip": "이모티콘 보내기"
+  },
+  "Localization": {
+    "auto send": "자동 전송"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "이모티콘",
+  "Description": "이모티콘",
+  "Category": "이모티콘",
+  "com.mirabox.streamdock.emoticons.lib": {
+    "Name": "이모티콘 라이브러리",
+    "Tooltip": "이모티콘 라이브러리"
+  },
+  "com.mirabox.streamdock.emoticons.select": {
+    "Name": "이모티콘 보내기",
+    "Tooltip": "이모티콘 보내기"
+  },
+  "com.mirabox.streamdock.emoticons.select2": {
+    "Name": "이모티콘 보내기",
+    "Tooltip": "이모티콘 보내기"
+  },
+  "Localization": {
+    "DeletePhoto": "이미지 삭제",
+    "DeleteAll?": "모든 이미지를 삭제하시겠습니까?",
+    "DeleteAll": "모두 삭제",
+    "ImportPhoto": "이미지 가져오기",
+    "FromClipboard": "클립보드에서 추가",
+    "FromFolder": "폴더에서 가져오기",
+    "SendDirectly": "바로 보내시겠습니까?",
+    "OpenIconFolder": "이미지 폴더 열기"
+  }
+}

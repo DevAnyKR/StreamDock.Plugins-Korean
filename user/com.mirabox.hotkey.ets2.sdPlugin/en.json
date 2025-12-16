@@ -1,0 +1,66 @@
+{
+  "Description": "ETS2 게임용 단축키 모음입니다.", 
+  "Name": "ETS2 Hotkey", 
+  "Category": "ETS2 Hotkey",
+  "com.hotspot.streamdock.hotkey.ets2.ignitionshutdown": {
+    "Name": "점화/끄기", 
+    "Tooltip": "ETS2 게임에서 차량 시동 시작 및 끄기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.cruisecontrol": {
+    "Name": "크루즈 컨트롤", 
+    "Tooltip": "ETS2 게임에서 크루즈 컨트롤이 켜진 차량"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.boostingspeed": {
+    "Name": "소멸시효速", 
+    "Tooltip": "차량 크루즈 컨트롤 수를 늘리는 ETS2 게임"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.reducespeed": {
+    "Name": "정속 속도 감소", 
+    "Tooltip": "ETS2 게임에서 차량의 크루즈 컨트롤 값 줄이기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.headlight": {
+    "Name": "전조등", 
+    "Tooltip": "ETS2 게임에서 차량의 헤드라이트 켜기/끄기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.highbeam": {
+    "Name": "하이빔(헤드라이트)", 
+    "Tooltip": "ETS2 게임에서 차량의 상향등 켜기/끄기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.handbrake": {
+    "Name": "핸드브레이크", 
+    "Tooltip": "ETS2 게임에서 주차 후 차량이 미끄러지는 현상 방지"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.horns": {
+    "Name": "경적", 
+    "Tooltip": "경적을 당기는 ETS2 게임"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.Upshift": {
+    "Name": "업시프트", 
+    "Tooltip": "차량의 기어를 강화하는 ETS2 게임"
+  },
+
+  "com.hotspot.streamdock.hotkey.ets2.downshift": {
+    "Name": "다운그레이드", 
+    "Tooltip": "ETS2 게임 차량의 기어를 내립니다"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.windshieldwiper": {
+    "Name": "와이퍼", 
+    "Tooltip": "ETS2 게임에서 차량의 와이퍼 켜기/끄기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.flashingheadlights": {
+    "Name": "전조등 깜박임", 
+    "Tooltip": "ETS2 게임에서 깜박이는 전조등"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.doubleflashinglight": {
+    "Name": "더블 플래시", 
+    "Tooltip": "ETS2 게임에서 차량의 듀얼 점멸등 켜기/끄기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.leftturnsignal": {
+    "Name": "방향 지시등", 
+    "Tooltip": "ETS2 게임에서 좌회전 신호 켜기"
+  },
+  "com.hotspot.streamdock.hotkey.ets2.rightturnsignal": {
+    "Name": "우회전 방향 지시등", 
+    "Tooltip": "ETS2 게임에서 우회전 신호 켜기"
+  }
+}

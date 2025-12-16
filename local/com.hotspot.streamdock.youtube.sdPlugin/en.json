@@ -7,6 +7,6 @@
   },
   "com.hotspot.streamdock.youtube.viewers": {
     "Name": "시청자", 
-    "Tooltip": "시청자수 보이기"
+    "Tooltip": "시청자 수 보이기"
   }
 }

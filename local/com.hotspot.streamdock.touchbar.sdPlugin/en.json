@@ -92,5 +92,13 @@
   "com.hotspot.streamdock.touchbar.mute": {
     "Name": "음소거", 
     "Tooltip": "음소거"
+  },
+  "com.hotspot.streamdock.touchbar.volume": {
+    "Name": "볼륨", 
+    "Tooltip": "볼륨 제어"
+  },
+  "com.hotspot.streamdock.touchbar.screen.brightness": {
+    "Name": "화면 밝기", 
+    "Tooltip": "화면 밝기 조절"
   }
 }

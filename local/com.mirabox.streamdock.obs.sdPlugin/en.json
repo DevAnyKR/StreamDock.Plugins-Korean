@@ -1,0 +1,102 @@
+{
+  "Name": "OBS 도구",
+  "Category": "OBS 도구",
+  "Description": "OBS 도구",
+  "com.mirabox.streamdock.obs.browsersource": {
+    "Name": "브라우저 소스",
+    "Tooltip": "브라우저 소스"
+  },
+  "com.mirabox.streamdock.obs.cpuusage": {
+    "Name": "CPU 사용량",
+    "Tooltip": "CPU 사용량"
+  },
+  "com.mirabox.streamdock.obs.droppedframes": {
+    "Name": "드롭된 프레임",
+    "Tooltip": "드롭된 프레임"
+  },
+  "com.mirabox.streamdock.obs.filtertoggle": {
+    "Name": "필터 전환",
+    "Tooltip": "필터 전환"
+  },
+  "com.mirabox.streamdock.obs.imagesettings": {
+    "Name": "이미지 설정",
+    "Tooltip": "이미지 설정"
+  },
+  "com.mirabox.streamdock.obs.inputmonitorset": {
+    "Name": "입력 모니터 설정",
+    "Tooltip": "입력 모니터 설정"
+  },
+  "com.mirabox.streamdock.obs.inputmutetoggle": {
+    "Name": "입력 음소거 전환",
+    "Tooltip": "입력 음소거 전환"
+  },
+  "com.mirabox.streamdock.obs.inputvolumeadjust": {
+    "Name": "입력 볼륨 조절",
+    "Tooltip": "입력 볼륨 조절"
+  },
+  "com.mirabox.streamdock.obs.inputvolumeadset": {
+    "Name": "입력 볼륨 설정",
+    "Tooltip": "입력 볼륨 설정"
+  },
+  "com.mirabox.streamdock.obs.instantreplay": {
+    "Name": "즉시 재생",
+    "Tooltip": "즉시 재생"
+  },
+  "com.mirabox.streamdock.obs.previousscene": {
+    "Name": "이전 장면",
+    "Tooltip": "이전 장면"
+  },
+  "com.mirabox.streamdock.obs.nextscene": {
+    "Name": "다음 장면",
+    "Tooltip": "다음 장면"
+  },
+  "com.mirabox.streamdock.obs.remoterecording": {
+    "Name": "원격 녹화 시작/중지/일시정지",
+    "Tooltip": "원격 녹화 시작/중지/일시정지"
+  },
+  "com.mirabox.streamdock.obs.remotestreaming": {
+    "Name": "원격 스트리밍 시작/중지",
+    "Tooltip": "원격 스트리밍 시작/중지"
+  },
+  "com.mirabox.streamdock.obs.setprofile": {
+    "Name": "프로필 설정",
+    "Tooltip": "프로필 설정"
+  },
+  "com.mirabox.streamdock.obs.setscenecollection": {
+    "Name": "장면 컬렉션 설정",
+    "Tooltip": "장면 컬렉션 설정"
+  },
+  "com.mirabox.streamdock.obs.settransition": {
+    "Name": "전환 설정",
+    "Tooltip": "전환 설정"
+  },
+  "com.mirabox.streamdock.obs.sceneswitcher": {
+    "Name": "장면 전환기",
+    "Tooltip": "장면 전환기"
+  },
+  "com.mirabox.streamdock.obs.sourceanimation": {
+    "Name": "소스 애니메이션",
+    "Tooltip": "소스 애니메이션"
+  },
+  "com.mirabox.streamdock.obs.sourcevisibility": {
+    "Name": "소스 가시성",
+    "Tooltip": "소스 가시성"
+  },
+  "com.mirabox.streamdock.obs.studiomodetoggle": {
+    "Name": "스튜디오 모드 전환",
+    "Tooltip": "스튜디오 모드 전환"
+  },
+  "com.mirabox.streamdock.obs.videoplayer": {
+    "Name": "비디오 재생",
+    "Tooltip": "비디오 재생"
+  },
+  "com.mirabox.streamdock.obs.vitualcamera": {
+    "Name": "가상 카메라",
+    "Tooltip": "가상 카메라"
+  },
+  "com.mirabox.streamdock.obs.inputvolume": {
+    "Name": "입력 볼륨",
+    "Tooltip": "입력 볼륨"
+  },
+  "Localization": {}
+}

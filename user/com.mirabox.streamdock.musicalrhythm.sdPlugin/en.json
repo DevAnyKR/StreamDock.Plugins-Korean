@@ -1,0 +1,42 @@
+{
+  "Name": "음악 리듬",
+  "Description": "음악 리듬",
+  "Category": "음악 리듬",
+  "com.mirabox.streamdock.musicalrhythm.action1": {
+    "Name": "도표 1",
+    "Tooltip": "도표 1"
+  },
+  "com.mirabox.streamdock.musicalrhythm.action2": {
+    "Name": "도표 2",
+    "Tooltip": "도표 2"
+  },
+  "com.mirabox.streamdock.musicalrhythm.action3": {
+    "Name": "도표 3",
+    "Tooltip": "도표 3"
+  },
+  "com.mirabox.streamdock.musicalrhythm.action4": {
+    "Name": "도표 4",
+    "Tooltip": "도표 4"
+  },
+  "com.mirabox.streamdock.musicalrhythm.action5": {
+    "Name": "도표 5",
+    "Tooltip": "도표 5"
+  },
+  "Localization": {
+    "Playback Device": "재생 장치",
+    "Loading...": "로딩 중...",
+    "Time Display": "시간 표시",
+    "Time Remaining": "남은 시간",
+    "Time Elapsed": "경과 시간",
+    "Show Title": "타이틀 표시",
+    "Display Format": "표시 형식",
+    "Title": "타이틀",
+    "Title - Artist": "타이틀 - 아티스트",
+    "Artist": "아티스트",
+    "Artist - Title": "아티스트 - 타이틀",
+    "Logout": "로그아웃",
+    "number": "숫자",
+    "color": "색상",
+    "opacity": "불투명도"
+  }
+}

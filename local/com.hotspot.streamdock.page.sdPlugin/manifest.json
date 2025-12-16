@@ -60,13 +60,13 @@
       "Name": "change page", 
       "States": [
         {
-          "Image": "Images/changePage"
+          "Image": ""
         }
       ], 
       "Controllers": [ "Knob" ],
       "Tooltip": "...", 
       "UUID": "com.hotspot.streamdock.page.change",
-      "SupportedInMultiActions": false
+      "SupportedInMultiActions": true
     }
   ], 
   "Author": "Hotspot", 

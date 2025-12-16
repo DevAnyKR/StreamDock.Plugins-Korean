@@ -1,8 +1,8 @@
 {
-  "Description": "폴더생성", 
-  "Name": "폴더생성", 
+  "Description": "폴더 생성", 
+  "Name": "폴더 생성", 
   "com.hotspot.streamdock.profile.openchild": {
-    "Name": "폴더생성", 
-    "Tooltip": "폴더생성"
+    "Name": "폴더 생성", 
+    "Tooltip": "폴더 생성"
   }
 }
