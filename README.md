@@ -5,6 +5,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/devanykr/StreamDock.Plugins-Korean)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devanykr/StreamDock.Plugins-Korean?style=plastic&label=%E2%AD%90)
 
+## ⚠️주의
+스트림독의 오리지널 브랜드는 MiraBox(미라박스)입니다.
+
 ## 사용법
 
 * 한국어를 지원하지 않으면 english 언어로 설정합니다.
